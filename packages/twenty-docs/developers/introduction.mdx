@@ -1,0 +1,46 @@
+---
+title: Build on Ownward Labs
+sidebarTitle: Developers
+description: Extend an Ownward Labs workspace with apps, APIs, and self-hosted deployments.
+hideFooterPagination: true
+---
+
+import { CardTitle } from "/snippets/card-title.mdx"
+import { LandingActions, LandingButton } from "/snippets/landing-actions.mdx"
+import { PageBanner } from "/snippets/page-banner.mdx"
+
+<LandingActions>
+  <LandingButton href="/developers/extend/apps/getting-started/quick-start">Build an app</LandingButton>
+  <LandingButton href="/developers/extend/api" outlined>Explore the API</LandingButton>
+</LandingActions>
+
+Ownward Labs includes tools for extending the CRM workspace and connecting it with other systems. The monorepo contains a TypeScript SDK, a command-line interface, REST and GraphQL APIs, and the application services.
+
+## Explore the developer docs
+
+<CardGroup cols={2} className="documentation-card-group documentation-card-group--patterned">
+  <Card href="/developers/extend/apps/getting-started/quick-start" img="/images/documentation/banner-icons-v2/dev-apps.svg">
+    <CardTitle>Apps</CardTitle>
+    Learn how to define and run TypeScript apps for a workspace.
+  </Card>
+  <Card href="/developers/extend/api" img="/images/documentation/banner-icons-v2/dev-api.svg">
+    <CardTitle>API</CardTitle>
+    Connect to workspace data through the documented API surfaces.
+  </Card>
+  <Card href="/developers/self-host/capabilities/docker-compose" img="/images/documentation/banner-icons-v2/dev-self-host.svg">
+    <CardTitle>Self-host</CardTitle>
+    Run the application on infrastructure you manage.
+  </Card>
+  <Card href="/developers/contribute/capabilities/local-setup" img="/images/documentation/banner-icons-v2/dev-contribute.svg">
+    <CardTitle>Contribute</CardTitle>
+    Set up the monorepo and make changes to the open-source codebase.
+  </Card>
+  <Card href="/ui/getting-started" img="/images/user-guide/halftone/layout-window-v1.svg">
+    <CardTitle>UI library</CardTitle>
+    Browse the React primitives, components, icons, and theme tokens.
+  </Card>
+</CardGroup>
+
+This distribution is derived from [Twenty](https://github.com/Krishna-Sai3112/Ownward_CRM). The source repository and license notices identify the upstream project and its applicable terms.
+
+<PageBanner illustration="developers" />

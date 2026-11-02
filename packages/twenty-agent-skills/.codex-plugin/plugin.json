@@ -1,0 +1,45 @@
+{
+  "name": "ownward-labs",
+  "version": "0.1.0",
+  "description": "Create, operate, develop, publish, and query Ownward Labs apps through Codex.",
+  "author": {
+    "name": "Ownward Labs",
+    "url": "https://www.ownward.agency/"
+  },
+  "homepage": "https://www.ownward.agency/",
+  "repository": "https://github.com/Krishna-Sai3112/Ownward_CRM",
+  "license": "AGPL-3.0",
+  "keywords": [
+    "ownward-labs",
+    "mcp",
+    "oauth",
+    "crm",
+    "apps",
+    "scaffolding",
+    "cli",
+    "ownward-cli",
+    "publishing"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Ownward Labs",
+    "shortDescription": "Create, develop, publish, and query apps",
+    "longDescription": "Scaffold, develop, deploy, and publish Ownward Labs apps end-to-end. Focused skills cover app creation, entity development, remote operations, marketplace publishing, and workspace data retrieval through a user-configured MCP endpoint.",
+    "developerName": "Ownward Labs",
+    "category": "Coding",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://www.ownward.agency/",
+    "privacyPolicyURL": "https://www.ownward.agency/",
+    "termsOfServiceURL": "https://www.ownward.agency/",
+    "defaultPrompt": [
+      "Create and run a new Ownward Labs app",
+      "Push an Ownward Labs app to production",
+      "Develop an Ownward Labs app feature"
+    ],
+    "brandColor": "#000000",
+    "composerIcon": "./assets/ownward-labs-icon-512.png",
+    "logo": "./assets/ownward-labs-icon-512.png",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Use Ownward Labs MCP"
+  short_description: "Query Ownward Labs MCP and format readable records."
+  default_prompt: "Use $use-ownward-mcp to connect Codex to Ownward Labs MCP or retrieve readable workspace data."

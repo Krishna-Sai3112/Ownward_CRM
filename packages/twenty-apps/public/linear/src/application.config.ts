@@ -1,0 +1,34 @@
+import { defineApplication } from 'twenty-sdk/define';
+import { APPLICATION_UNIVERSAL_IDENTIFIER } from 'src/constants/universal-identifiers';
+
+export default defineApplication({
+  universalIdentifier: APPLICATION_UNIVERSAL_IDENTIFIER,
+  displayName: 'Linear',
+  description:
+    'Connect Linear to Ownward Labs. Each workspace member connects their own Linear account; logic functions can then create issues and read team data on their behalf.',
+  logoUrl: 'public/linear-logomark.svg',
+  applicationVariables: undefined,
+  author: 'Ownward Labs',
+  category: 'Product management',
+  screenshots: [
+    'public/gallery/command-menu-item-1.png',
+    'public/gallery/command-menu-item-2.png',
+    'public/gallery/command-menu-item-3.png',
+    'public/gallery/command-menu-item-4.png',
+  ],
+  websiteUrl: 'https://www.ownward.agency',
+  serverVariables: {
+    LINEAR_CLIENT_ID: {
+      description:
+        'OAuth client ID from your Linear OAuth application (linear.app/settings/api/applications).',
+      isSecret: false,
+      isRequired: true,
+    },
+    LINEAR_CLIENT_SECRET: {
+      description:
+        'OAuth client secret from your Linear OAuth application. Stored encrypted; never exposed in API responses.',
+      isSecret: true,
+      isRequired: true,
+    },
+  },
+});

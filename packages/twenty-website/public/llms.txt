@@ -1,0 +1,9 @@
+# Ownward Labs
+
+Ownward Labs provides a customizable CRM workspace for managing customer relationships and the work around them. The platform supports configurable records and relationships, workflows, integrations, and API access.
+
+The application can be self-hosted. API and MCP endpoints are served by the configured application instance; use that instance's documentation and workspace URL when connecting tools. Endpoint paths and authentication depend on the deployed version and configuration.
+
+For information about Ownward Labs, visit [ownward.agency](https://www.ownward.agency/).
+
+This distribution is based on the Ownward Labs open-source project. See the repository license and notices for attribution and terms.

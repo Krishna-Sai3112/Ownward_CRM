@@ -1,0 +1,20 @@
+{
+  "name": "ownward-labs-local",
+  "interface": {
+    "displayName": "Ownward Labs Local"
+  },
+  "plugins": [
+    {
+      "name": "ownward-labs",
+      "category": "Coding",
+      "source": {
+        "source": "local",
+        "path": "./packages/twenty-agent-skills/dist"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    }
+  ]
+}

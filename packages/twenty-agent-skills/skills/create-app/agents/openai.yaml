@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create App"
+  short_description: "Scaffold and develop Ownward Labs apps."
+  default_prompt: "Use $create-app to scaffold and run a new Ownward Labs app."

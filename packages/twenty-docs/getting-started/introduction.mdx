@@ -1,0 +1,53 @@
+---
+title: Meet Ownward Labs
+description: An introduction to Ownward Labs and its CRM workspace.
+---
+
+import { CardTitle } from "/snippets/card-title.mdx"
+import { LandingActions, LandingButton } from "/snippets/landing-actions.mdx"
+import { PageBanner } from "/snippets/page-banner.mdx"
+
+<LandingActions>
+  <LandingButton href="/getting-started/quickstart">Get started</LandingButton>
+  <LandingButton href="/getting-started/key-features" outlined>Explore capabilities</LandingButton>
+</LandingActions>
+
+Ownward Labs is a CRM workspace for organizing customer records and the work connected to them. Teams can configure the data they track, arrange records in views, and use workflows and integrations to connect their existing processes.
+
+## Start with your workspace
+
+<CardGroup cols={2} className="documentation-card-group documentation-card-group--patterned">
+  <Card href="/user-guide/data-model/overview" img="/images/documentation/banner-icons-v2/data-model.svg">
+    <CardTitle>Shape your data</CardTitle>
+    Configure objects, fields, and relationships for the information your team manages.
+  </Card>
+  <Card href="/user-guide/views-pipelines/overview" img="/images/documentation/section-overview-icons-v1/views-pipelines.svg">
+    <CardTitle>Organize records</CardTitle>
+    Create views that help your team work with workspace records.
+  </Card>
+  <Card href="/user-guide/workflows/overview" img="/images/user-guide/halftone/workflows-belt-v1.svg">
+    <CardTitle>Connect work</CardTitle>
+    Learn how workflows can automate steps in your processes.
+  </Card>
+  <Card href="/developers/extend/api" img="/images/documentation/banner-icons-v2/dev-api.svg">
+    <CardTitle>Extend your setup</CardTitle>
+    Explore APIs, apps, and self-hosting guidance in the developer documentation.
+  </Card>
+</CardGroup>
+
+## Choose how to run it
+
+Use the Ownward Labs instance provided for your organization, or follow the self-hosting guide to run the application on infrastructure you manage. Availability and sign-in options depend on how that instance is configured.
+
+<CardGroup cols={2} className="documentation-card-group">
+  <Card href="/getting-started/quickstart" img="/images/documentation/getting-started-icons-v1/quickstart.svg">
+    <CardTitle>Open the quickstart</CardTitle>
+    Prepare a configured workspace and learn the first setup steps.
+  </Card>
+  <Card href="/developers/self-host/capabilities/docker-compose" img="/images/documentation/banner-icons-v2/dev-self-host.svg">
+    <CardTitle>Self-host</CardTitle>
+    Review the deployment requirements and Docker Compose instructions.
+  </Card>
+</CardGroup>
+
+<PageBanner illustration="meet-twenty" />

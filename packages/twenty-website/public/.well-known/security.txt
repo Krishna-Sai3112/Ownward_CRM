@@ -1,0 +1,5 @@
+Contact: https://github.com/Krishna-Sai3112/Ownward_CRM/issues/new
+Contact: https://www.ownward.agency/
+Preferred-Languages: en
+Canonical: https://www.ownward.agency/.well-known/security.txt
+Policy: https://www.ownward.agency/

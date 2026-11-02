@@ -1,0 +1,50 @@
+---
+title: Quickstart
+description: Get started with an Ownward Labs workspace.
+---
+
+import { CardTitle } from "/snippets/card-title.mdx"
+import { PageBanner } from "/snippets/page-banner.mdx"
+
+## Open a workspace
+
+Use the Ownward Labs workspace URL provided by your organization administrator. Sign-in methods, available features, and access policies are configured for that instance.
+
+If you are setting up a new self-hosted instance, follow the [Docker Compose deployment guide](/developers/self-host/capabilities/docker-compose) first. Once the application is running, open its configured `SERVER_URL` in your browser and complete the sign-in flow enabled by the administrator.
+
+## Configure your workspace
+
+After signing in, use the workspace settings to shape Ownward Labs around your team's data and processes.
+
+### 1. Review the data model
+
+Explore the available objects, fields, and relationships. Add or adjust fields to reflect the information your team needs to manage.
+
+[Data Model reference →](/user-guide/data-model/overview)
+
+### 2. Organize your records
+
+Create views and configure the fields shown to your team. Views can help make the records and work most relevant to each role easier to find.
+
+[Views and pipelines →](/user-guide/views-pipelines/overview)
+
+### 3. Connect your processes
+
+Review the integrations and workflow options available in your instance. Connected services and permissions vary with the instance configuration.
+
+[Workflows →](/user-guide/workflows/overview)
+
+## Next steps
+
+<CardGroup cols={2} className="documentation-card-group">
+  <Card href="/getting-started/core-concepts/layout" img="/images/user-guide/halftone/layout-window-v1.svg">
+    <CardTitle>Learn the layout</CardTitle>
+    Find your way around the navigation, views, and record pages.
+  </Card>
+  <Card href="/user-guide/data-migration/overview" img="/images/documentation/banner-icons-v2/data-migration.svg">
+    <CardTitle>Import data</CardTitle>
+    Read the data migration guide before bringing records into a workspace.
+  </Card>
+</CardGroup>
+
+<PageBanner illustration="getting-started-quickstart" />
